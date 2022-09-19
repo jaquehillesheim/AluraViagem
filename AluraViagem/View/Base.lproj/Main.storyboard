@@ -3,6 +3,7 @@
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,21 +12,22 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AluraViagem" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" contentViewInsetsToSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puy-Ez-bsp">
-                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <rect key="frame" x="0.0" y="47" width="390" height="797"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="An7-rg-872"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="puy-Ez-bsp" secondAttribute="bottom" id="4Oo-De-HDc"/>
-                            <constraint firstItem="puy-Ez-bsp" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="RL0-ZV-8Y1"/>
-                            <constraint firstItem="puy-Ez-bsp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fnP-GC-UJk"/>
-                            <constraint firstItem="puy-Ez-bsp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="oI2-Fy-nMa"/>
+                            <constraint firstItem="puy-Ez-bsp" firstAttribute="top" secondItem="An7-rg-872" secondAttribute="top" id="Nru-Gu-a0d"/>
+                            <constraint firstItem="puy-Ez-bsp" firstAttribute="leading" secondItem="An7-rg-872" secondAttribute="leading" id="ZAF-Kw-lvf"/>
+                            <constraint firstItem="puy-Ez-bsp" firstAttribute="trailing" secondItem="An7-rg-872" secondAttribute="trailing" id="d73-79-wiL"/>
                         </constraints>
                     </view>
                     <connections>
