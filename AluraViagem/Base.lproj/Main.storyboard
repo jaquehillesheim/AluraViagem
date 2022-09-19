@@ -16,14 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="puy-Ez-bsp">
-                                <rect key="frame" x="0.0" y="-48" width="390" height="844"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="puy-Ez-bsp">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="810"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="puy-Ez-bsp" secondAttribute="bottom" id="4Oo-De-HDc"/>
+                            <constraint firstItem="puy-Ez-bsp" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RL0-ZV-8Y1"/>
+                            <constraint firstItem="puy-Ez-bsp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fnP-GC-UJk"/>
+                            <constraint firstItem="puy-Ez-bsp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oI2-Fy-nMa"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="viagensTableView" destination="puy-Ez-bsp" id="z4r-KY-sYy"/>
