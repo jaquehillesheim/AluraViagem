@@ -25,8 +25,8 @@ class HomeTableViewHeader: UIView {
         bannerView.layer.cornerRadius = 10
         bannerView.layer.masksToBounds = true
         
-        headeView.layer.cornerRadius = 500
-        headeView.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
+//        headeView.layer.cornerRadius = 500
+//        headeView.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
         
         // layerMinXMaxYCorner - arrendondar a imagem parte esqueda inferior da header, - .layerMaxXMaxYCorner - arrendondar a imagem parte direita inferior da header.
     }
