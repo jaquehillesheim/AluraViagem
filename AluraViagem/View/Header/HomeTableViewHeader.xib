@@ -95,7 +95,7 @@
             <connections>
                 <outlet property="bannerImageView" destination="niy-E3-dXL" id="4Ox-Nd-Unt"/>
                 <outlet property="bannerView" destination="Q9a-YT-QEP" id="UNt-Zs-r7H"/>
-                <outlet property="headeView" destination="mLe-Zt-Aor" id="1EQ-K2-CRJ"/>
+                <outlet property="headerView" destination="mLe-Zt-Aor" id="gd9-fh-kcE"/>
                 <outlet property="tituloLabel" destination="2g7-xG-E4A" id="UET-M5-Pxk"/>
             </connections>
             <point key="canvasLocation" x="53.846153846153847" y="-1.4218009478672986"/>
