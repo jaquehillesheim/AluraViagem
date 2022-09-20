@@ -17,6 +17,6 @@ enum ViagemViewModelType: String {
 protocol ViagemViewModel {
     var tituloSessao: String { get }
     var tipo: ViagemViewModelType { get }
-    var viagens: [Viagem] { get }
+    var viagens: [Viagem] { get set }
     var numeroDeLinhas: Int { get }
 }

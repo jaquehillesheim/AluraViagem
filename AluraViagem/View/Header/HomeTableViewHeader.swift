@@ -15,7 +15,6 @@ class HomeTableViewHeader: UIView {
     @IBOutlet weak var tituloLabel: UILabel!
     @IBOutlet weak var headerView: UIView!
     @IBOutlet weak var bannerImageView: UIImageView!
-    
     @IBOutlet weak var bannerView: UIView!
     
     func configuraView() {

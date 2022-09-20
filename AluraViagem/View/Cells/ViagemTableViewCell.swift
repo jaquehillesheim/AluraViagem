@@ -39,7 +39,7 @@ class ViagemTableViewCell: UITableViewCell {
             diariaViagemLabel.text = "\(numeroDeDias) \(diarias) - \(numeroDeHospedes) \(hospedes)"
             
         }
-        
+            // Adicionar sombra na view
         DispatchQueue.main.async {
             self.backgroundViewCell.addSombra()
         }
