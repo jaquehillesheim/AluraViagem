@@ -142,7 +142,7 @@
             <connections>
                 <outlet property="backgroundViewCell" destination="Ham-rN-ZZ6" id="RFn-j1-UDe"/>
                 <outlet property="diariaViagemLabel" destination="ayA-fD-tBU" id="5lw-vh-wqq"/>
-                <outlet property="precoSemDescontoLabel" destination="3Td-e4-ORp" id="r2T-A6-RLw"/>
+                <outlet property="precoSemDescontoLabel" destination="9E7-jd-3Hd" id="QiO-RI-131"/>
                 <outlet property="precoViagemLabel" destination="Dw6-UO-qKW" id="Z7Y-ka-JSq"/>
                 <outlet property="statusCancelamentoViagemLabel" destination="nS1-lq-81W" id="NBI-tq-GZb"/>
                 <outlet property="subtituloViagemLabel" destination="FTm-T3-Isv" id="P9x-Qd-77z"/>

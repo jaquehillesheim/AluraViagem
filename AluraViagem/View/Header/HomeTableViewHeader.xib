@@ -40,20 +40,17 @@
                     <rect key="frame" x="20" y="130" width="375" height="130"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="izC-E8-rZq">
-                            <rect key="frame" x="0.0" y="0.0" width="200" height="129.66666666666666"/>
+                            <rect key="frame" x="0.0" y="0.0" width="200" height="130"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ofertas exclusivas,  somente no nosso app." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIy-J8-dkD">
-                                    <rect key="frame" x="16" y="68" width="168" height="47.666666666666657"/>
-                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="17"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aproveite o verão, com:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="22w-8a-u1y">
+                                    <rect key="frame" x="16" y="13.999999999999996" width="168" height="61.666666666666657"/>
+                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="22"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aproveite o verão, com:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="22w-8a-u1y">
-                                    <rect key="frame" x="16" y="-7" width="168" height="74"/>
-                                    <constraints>
-                                        <constraint firstAttribute="height" constant="74" id="Rmc-hF-FEF"/>
-                                    </constraints>
-                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="22"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ofertas exclusivas, somente no nosso app." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIy-J8-dkD">
+                                    <rect key="frame" x="16" y="82.333333333333343" width="168" height="33.666666666666657"/>
+                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="12"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
                                 </label>
@@ -66,19 +63,25 @@
                                 <constraint firstItem="obu-SL-Ptg" firstAttribute="trailing" secondItem="QIy-J8-dkD" secondAttribute="trailing" constant="16" id="GWc-gs-tb8"/>
                                 <constraint firstAttribute="width" constant="200" id="HKR-hV-qqI"/>
                                 <constraint firstItem="obu-SL-Ptg" firstAttribute="bottom" secondItem="QIy-J8-dkD" secondAttribute="bottom" constant="14" id="MEc-Zm-vbn"/>
-                                <constraint firstItem="22w-8a-u1y" firstAttribute="top" secondItem="izC-E8-rZq" secondAttribute="top" constant="-7" id="mgY-eI-8mn"/>
-                                <constraint firstItem="QIy-J8-dkD" firstAttribute="top" secondItem="22w-8a-u1y" secondAttribute="bottom" constant="1" id="pRV-1n-9We"/>
+                                <constraint firstItem="22w-8a-u1y" firstAttribute="top" secondItem="izC-E8-rZq" secondAttribute="top" constant="14" id="mgY-eI-8mn"/>
                                 <constraint firstAttribute="trailing" secondItem="22w-8a-u1y" secondAttribute="trailing" constant="16" id="yA6-Z8-Heh"/>
                             </constraints>
                         </view>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ferias" translatesAutoresizingMaskIntoConstraints="NO" id="niy-E3-dXL">
-                            <rect key="frame" x="188" y="0.0" width="186" height="130"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ferias" translatesAutoresizingMaskIntoConstraints="NO" id="niy-E3-dXL">
+                            <rect key="frame" x="199" y="0.0" width="176" height="130"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="176" id="Trc-Ha-vh2"/>
+                            </constraints>
                         </imageView>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
+                        <constraint firstItem="niy-E3-dXL" firstAttribute="top" secondItem="Q9a-YT-QEP" secondAttribute="top" id="BXy-Ak-bzy"/>
+                        <constraint firstAttribute="bottom" secondItem="izC-E8-rZq" secondAttribute="bottom" id="C03-ER-jP5"/>
                         <constraint firstItem="izC-E8-rZq" firstAttribute="leading" secondItem="Q9a-YT-QEP" secondAttribute="leading" id="EDs-zU-azs"/>
+                        <constraint firstAttribute="trailing" secondItem="niy-E3-dXL" secondAttribute="trailing" id="RX4-eM-INm"/>
+                        <constraint firstAttribute="bottom" secondItem="niy-E3-dXL" secondAttribute="bottom" id="gU2-1u-bHT"/>
+                        <constraint firstAttribute="width" constant="375" id="jBp-6f-mjx"/>
                         <constraint firstItem="izC-E8-rZq" firstAttribute="top" secondItem="Q9a-YT-QEP" secondAttribute="top" id="rYp-lu-jme"/>
                         <constraint firstAttribute="height" constant="130" id="s09-Kr-eow"/>
                     </constraints>
@@ -101,7 +104,7 @@
                 <outlet property="headerView" destination="mLe-Zt-Aor" id="gd9-fh-kcE"/>
                 <outlet property="tituloLabel" destination="2g7-xG-E4A" id="UET-M5-Pxk"/>
             </connections>
-            <point key="canvasLocation" x="53.846153846153847" y="-1.4218009478672986"/>
+            <point key="canvasLocation" x="53.02325581395349" y="-1.9313304721030045"/>
         </view>
     </objects>
     <resources>
