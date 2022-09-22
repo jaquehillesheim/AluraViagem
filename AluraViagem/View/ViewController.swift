@@ -67,6 +67,12 @@ extension ViewController: UITableViewDataSource {
 
 extension ViewController: UITableViewDelegate {
     
+        // didSelectRowat estancia para pagina de detalhes
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let detalheController = DetalheViewController(nibName: "DetalheViewController", bundle: nil)
+        navigationController?.pushViewController(detalheController, animated: true)
+    }
+    
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
          // validado header so na primeira pagina
         if section == 0 {

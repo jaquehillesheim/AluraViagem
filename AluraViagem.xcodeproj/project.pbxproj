@@ -24,6 +24,8 @@
 		7B65896E28DA399F00BE6E85 /* ViagemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B65896D28DA399F00BE6E85 /* ViagemViewModel.swift */; };
 		7B65897028DA3B4100BE6E85 /* ViagemDestaqueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B65896F28DA3B4100BE6E85 /* ViagemDestaqueViewModel.swift */; };
 		7B6EF67C28D5FE21008F579C /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B6EF67B28D5FE21008F579C /* HomeTableViewHeader.xib */; };
+		7B98590928DCCD6E000955DD /* DetalheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98590728DCCD6E000955DD /* DetalheViewController.swift */; };
+		7B98590A28DCCD6E000955DD /* DetalheViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B98590828DCCD6E000955DD /* DetalheViewController.xib */; };
 		7BE99B1628DBBB6100204979 /* OfertaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE99B1528DBBB6100204979 /* OfertaTableViewCell.swift */; };
 		7BE99B1828DBBB6700204979 /* OfertaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BE99B1728DBBB6700204979 /* OfertaTableViewCell.xib */; };
 		7BE99B1A28DBBCF700204979 /* ViagemOfertaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE99B1928DBBCF600204979 /* ViagemOfertaViewModel.swift */; };
@@ -49,6 +51,8 @@
 		7B65896D28DA399F00BE6E85 /* ViagemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemViewModel.swift; sourceTree = "<group>"; };
 		7B65896F28DA3B4100BE6E85 /* ViagemDestaqueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemDestaqueViewModel.swift; sourceTree = "<group>"; };
 		7B6EF67B28D5FE21008F579C /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
+		7B98590728DCCD6E000955DD /* DetalheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheViewController.swift; sourceTree = "<group>"; };
+		7B98590828DCCD6E000955DD /* DetalheViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetalheViewController.xib; sourceTree = "<group>"; };
 		7BE99B1528DBBB6100204979 /* OfertaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfertaTableViewCell.swift; sourceTree = "<group>"; };
 		7BE99B1728DBBB6700204979 /* OfertaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OfertaTableViewCell.xib; sourceTree = "<group>"; };
 		7BE99B1928DBBCF600204979 /* ViagemOfertaViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViagemOfertaViewModel.swift; sourceTree = "<group>"; };
@@ -131,6 +135,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		7B98590628DCCD3C000955DD /* DetalheViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7B98590728DCCD6E000955DD /* DetalheViewController.swift */,
+				7B98590828DCCD6E000955DD /* DetalheViewController.xib */,
+			);
+			path = DetalheViewController;
+			sourceTree = "<group>";
+		};
 		7BD70BAE28D9066A00BF35C3 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +168,7 @@
 			children = (
 				7B5A6C6528D4EDDA001DCB89 /* ViewController.swift */,
 				7B5A6C6728D4EDDA001DCB89 /* Main.storyboard */,
+				7B98590628DCCD3C000955DD /* DetalheViewController */,
 				7BD70BB128D9071400BF35C3 /* Header */,
 				7B65895C28DA24E800BE6E85 /* Cells */,
 			);
@@ -247,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B98590A28DCCD6E000955DD /* DetalheViewController.xib in Resources */,
 				7B5A6C6E28D4EDDB001DCB89 /* LaunchScreen.storyboard in Resources */,
 				7B6EF67C28D5FE21008F579C /* HomeTableViewHeader.xib in Resources */,
 				7B5A6C6B28D4EDDB001DCB89 /* Assets.xcassets in Resources */,
@@ -276,6 +291,7 @@
 				7B28F77428DC98BE00FC0460 /* TiposDeViagens.swift in Sources */,
 				7B5A6C6428D4EDDA001DCB89 /* SceneDelegate.swift in Sources */,
 				7B65896E28DA399F00BE6E85 /* ViagemViewModel.swift in Sources */,
+				7B98590928DCCD6E000955DD /* DetalheViewController.swift in Sources */,
 				7B65897028DA3B4100BE6E85 /* ViagemDestaqueViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
