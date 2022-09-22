@@ -143,9 +143,9 @@
 		7BD70BAF28D9067F00BF35C3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7B28F77328DC98BE00FC0460 /* Viagem.swift */,
 				7B28F77228DC98BE00FC0460 /* DecodableData.swift */,
 				7B28F77128DC98BE00FC0460 /* TiposDeViagens.swift */,
-				7B28F77328DC98BE00FC0460 /* Viagem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";

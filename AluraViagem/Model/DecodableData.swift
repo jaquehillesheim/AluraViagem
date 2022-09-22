@@ -49,7 +49,7 @@ func load(_ filename: String) -> [ViagemViewModel]? {
             case .ofertas:
                 if let ofertas = tiposDeViagens?.ofertas {
                     let ofertasViewModel = ViagemOfertaViewModel(ofertas)
-                    listaViagemViewModel.insert(ofertasViewModel, at: 0)
+                    listaViagemViewModel.append(ofertasViewModel)
                 }
             default:
                 break
