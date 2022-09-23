@@ -59,7 +59,7 @@ extension ViewController: UITableViewDataSource {
             guard let celulaOferta = tableView.dequeueReusableCell(withIdentifier: "OfertaTableViewCell") as? OfertaTableViewCell else {
                 fatalError("error to create ViagemTableViewCell")
             }
-            
+            celulaOferta.delegate = self
             celulaOferta.configuraCelula(viewModel?.viagens)
             
             return celulaOferta
@@ -76,7 +76,7 @@ extension ViewController: UITableViewDelegate {
         // didSelectRowat estancia para pagina de detalhes
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let viewmodel = sessaoDeViagens? [indexPath.row]
+        let viewmodel = sessaoDeViagens?[indexPath.section]
         
         switch viewmodel?.tipo {
         case.destaques, .internacionais:
@@ -109,5 +109,11 @@ extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.phone ? 400 : 475
         
+    }
+}
+
+extension ViewController: OfertaTableViewCellDelegate {
+    func didSelectView(_ viagem: Viagem?) {
+        irParaDetalhes(viagem)
     }
 }
